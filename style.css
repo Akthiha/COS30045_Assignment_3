@@ -1,0 +1,19 @@
+svg {
+    border: 1px solid #ccc;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background: lightsteelblue;
+    border: 1px solid #999;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+}
