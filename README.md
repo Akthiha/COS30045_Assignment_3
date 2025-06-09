@@ -1,7 +1,5 @@
 # OECD Unemployment Rate Comparison (2020-2024)
 
-![Project Screenshot](./screenshot.png)
-
 Interactive visualization comparing unemployment trends between Australia and the United States from 2020-2024 using OECD data.
 
 ## Features
