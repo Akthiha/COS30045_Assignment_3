@@ -17,3 +17,18 @@ svg {
     pointer-events: none;
     opacity: 0;
 }
+
+button {
+    padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	background-color: #768ba3;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+button:hover {
+    background-color: #596f8a;
+}

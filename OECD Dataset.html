@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
-    <title>OECD Unemployment Rate (Bar Chart)</title>
+    <title>OECD Yearly Unemployment Rate</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="OECD Dataset.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>OECD Unemployment Rate (Bar Chart)</h1>
-    <div id="chart"></div>
+    <h1>OECD Yearly Unemployment Rate</h1>
+    <div>
+        <button onclick="showImage()">Show Table</button>
+		<button onclick="showChart()">Show Chart</button>
+	</div>
+    
+    <div id="imageContainer" style="display:none;">
+        <img src="OECD Dataset.png" alt="OECD Image" style="max-width: 100%; height: auto;">
+    </div>
+    
+    <div id="chart" style="display:block;"></div>
 
     <footer>
         COS30045 Data Visualisation<br>
-        Team name
+        Team name: Team 1F
     </footer>
 </body>
 </html>
